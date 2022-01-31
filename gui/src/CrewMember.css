@@ -1,0 +1,10 @@
+.crew-member {
+    border: 1px solid black;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 150px;
+    align-items: center;
+    justify-content: space-around;
+}

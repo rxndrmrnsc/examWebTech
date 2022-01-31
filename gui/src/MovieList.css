@@ -1,0 +1,13 @@
+.movie-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.crew-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.wrapper-movies {
+    align-items: center;
+}

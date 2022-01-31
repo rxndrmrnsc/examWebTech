@@ -1,0 +1,17 @@
+{
+  "name": "examen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd server && npm install && npm start",
+    "heroku-postbuild": "cd gui && npm install && npm run build && npm start"
+  },
+  "engines": {
+    "node": "14.16.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
